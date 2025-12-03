@@ -4,6 +4,12 @@ This project implements a **sparse optimization** approach using Lasso Regressio
 
 The primary objective is to select a minimal, interpretable subset of genes that maintains high predictive accuracy.
 
+The data was acquired by the public kaggle dataset "TCGA - LUSC | Lung Cancer Gene Expression Dataset" from https://www.kaggle.com/datasets/noepinefrin/tcga-lusc-lung-cell-squamous-carcinoma-gene-exp/data . 
+
+Dataset consists of 551 patients, samples, each with 56970 differetn transcripts (expressed genes). 
+
+Lung Cell Squamos Carcinoma is a cancer that occurs in lungs. Detecting and predicting it by Machine Learning is a clear challenge that could be very helpful.
+
 ---
 
 ## Methodology: Ridge Baseline vs. Lasso Solution
